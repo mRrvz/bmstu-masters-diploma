@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2024-04-09T19:16:45.206Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="a7XeTkWw7IKbJSHGuy53" version="24.2.3" type="device">
+  <diagram name="Page-1" id="pBYU73D_1HV7YgoVwspF">
+    <mxGraphModel dx="1673" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-7" value="Запрос на запись данных в хранилище" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-9" value="Виртуальная машина" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="260" y="342.5" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-10" value="Хранилище ДСИ" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="535" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PdRIgPCuu8prFo5BbRnn-9" target="PdRIgPCuu8prFo5BbRnn-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="450" as="sourcePoint" />
+            <mxPoint x="500" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-12" value="Модуль&lt;br&gt;отображения памяти" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="810" y="342.5" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PdRIgPCuu8prFo5BbRnn-7" target="PdRIgPCuu8prFo5BbRnn-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="460" as="sourcePoint" />
+            <mxPoint x="660" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-14" value="Страницы памяти содержащие данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-16" value="Запись данных в хранилище" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="340" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PdRIgPCuu8prFo5BbRnn-16" target="PdRIgPCuu8prFo5BbRnn-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="530" as="sourcePoint" />
+            <mxPoint x="930" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-18" value="Данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PdRIgPCuu8prFo5BbRnn-12" target="PdRIgPCuu8prFo5BbRnn-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="420" as="sourcePoint" />
+            <mxPoint x="900" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-21" value="Данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PdRIgPCuu8prFo5BbRnn-16" target="PdRIgPCuu8prFo5BbRnn-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="420" as="sourcePoint" />
+            <mxPoint x="1323.3333333333333" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-23" value="Выделить новые страницы памяти для выходных данных" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="340" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-24" value="Результат выполнения операции" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="350" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PdRIgPCuu8prFo5BbRnn-23" target="PdRIgPCuu8prFo5BbRnn-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="385" as="sourcePoint" />
+            <mxPoint x="400" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1455" y="240" />
+              <mxPoint x="960" y="240" />
+              <mxPoint x="303" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-28" value="Страницы памяти содержащие результат выполнения операции" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="210" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PdRIgPCuu8prFo5BbRnn-29" value="Страницы памяти содержащие данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

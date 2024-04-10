@@ -1,0 +1,276 @@
+<mxfile host="app.diagrams.net" modified="2024-04-09T20:22:23.056Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="p37cIqRxSmg9_Q97nzmr" version="24.2.3" type="device" pages="2">
+  <diagram name="Page-1" id="c1p8hZTw2Ofo0TcBuHM4">
+    <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ghb6OxDviz4KhSSvoagT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="80" as="sourcePoint" />
+            <mxPoint x="470" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-2" value="Метод программной реализации доверенной среды исполнения с помощью виртуализации процессоров архитектуры ARM " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ghb6OxDviz4KhSSvoagT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="220" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ghb6OxDviz4KhSSvoagT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="830" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-5" value="Бинарные образы доверенной и обычной ОС" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="188" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-6" value="Модуль переключия контекста" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-7" value="Модуль отображения памяти" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ghb6OxDviz4KhSSvoagT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="80" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ghb6OxDviz4KhSSvoagT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547" y="80" as="sourcePoint" />
+            <mxPoint x="470" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-10" value="Гипервизор" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.924;exitY=-0.09;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ghb6OxDviz4KhSSvoagT-13" target="Ghb6OxDviz4KhSSvoagT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="330" as="sourcePoint" />
+            <mxPoint x="500" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.11;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ghb6OxDviz4KhSSvoagT-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="sourcePoint" />
+            <mxPoint x="540" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-13" value="ARM TrustZone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-14" value="Виртуализация ARM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="340" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-15" value="Виртуализированная доверенная среда исполнения" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="188" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ghb6OxDviz4KhSSvoagT-16" value="A0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pr-Hu5LouBRZ8e_066SA" name="Page-2">
+    <mxGraphModel dx="2844" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HfR3_PFLRZc3uOgkUprW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="80" as="sourcePoint" />
+            <mxPoint x="470" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-2" value="Виртуализация доверенной загрузки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HfR3_PFLRZc3uOgkUprW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="220" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HfR3_PFLRZc3uOgkUprW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="810" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-5" value="Бинарные образы доверенной и обычной ОС" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-6" value="Модуль переключия контекста" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-7" value="Модуль отображения памяти" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HfR3_PFLRZc3uOgkUprW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="80" as="sourcePoint" />
+            <mxPoint x="460" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HfR3_PFLRZc3uOgkUprW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547" y="80" as="sourcePoint" />
+            <mxPoint x="470" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-10" value="Гипервизор" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="455" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.924;exitY=-0.09;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HfR3_PFLRZc3uOgkUprW-13" target="HfR3_PFLRZc3uOgkUprW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="330" as="sourcePoint" />
+            <mxPoint x="500" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.11;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HfR3_PFLRZc3uOgkUprW-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="sourcePoint" />
+            <mxPoint x="540" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-13" value="ARM TrustZone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-14" value="Виртуализация ARM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="340" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-15" value="Доверенная и обычная ОС в стадии исполнения" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="190" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-16" value="A1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-17" value="Виртуализация переключения контекста" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="450" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HfR3_PFLRZc3uOgkUprW-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="480" as="sourcePoint" />
+            <mxPoint x="1140" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-19" value="Контекст выполнения гостевой ВМ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="675" y="450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-20" value="Модуль переключия контекста" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020.5" y="350" as="sourcePoint" />
+            <mxPoint x="1020" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HfR3_PFLRZc3uOgkUprW-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="510" as="sourcePoint" />
+            <mxPoint x="1290" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-23" value="Контекст выполнения доверенной ВМ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.11;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="911" y="600" as="sourcePoint" />
+            <mxPoint x="910" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-25" value="ARM TrustZone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="600" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-26" value="A2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910.5" y="350" as="sourcePoint" />
+            <mxPoint x="910" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-28" value="Гипервизор" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="380" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.11;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1021" y="600" as="sourcePoint" />
+            <mxPoint x="1020" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-30" value="Виртуализация ARM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="600" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1355" y="640" as="sourcePoint" />
+            <mxPoint x="1355" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-32" value="Виртуализация контроллеров разделения аппаратных ресурсов " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="740" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HfR3_PFLRZc3uOgkUprW-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="770" as="sourcePoint" />
+            <mxPoint x="1380" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HfR3_PFLRZc3uOgkUprW-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="800" as="sourcePoint" />
+            <mxPoint x="1740" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-35" value="Запрос на запись в память контроллера" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="740" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-36" value="Гипервизор" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-37" value="Обработанный запрос" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="740" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-38" value="A3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.924;exitY=-0.09;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HfR3_PFLRZc3uOgkUprW-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1353" y="880" as="sourcePoint" />
+            <mxPoint x="1353" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.11;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HfR3_PFLRZc3uOgkUprW-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="880" as="sourcePoint" />
+            <mxPoint x="1470" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-41" value="ARM TrustZone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="890" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-42" value="Виртуализация ARM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1457.5" y="890" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-43" value="Модуль отображения памяти" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HfR3_PFLRZc3uOgkUprW-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1473" y="640" as="sourcePoint" />
+            <mxPoint x="1473" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

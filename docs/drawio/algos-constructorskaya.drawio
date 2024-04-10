@@ -1,0 +1,180 @@
+<mxfile host="app.diagrams.net" modified="2024-04-10T19:44:08.803Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="nY0-1Q1HZBriuY2ej57n" version="24.2.3" type="device" pages="2">
+  <diagram name="Page-1" id="8OenIITmHkn0oN5r8PSh">
+    <mxGraphModel dx="1673" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-1" value="Начало" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-2" value="Конец" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="210" y="1080" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-3" value="Контекст выполнения ВМ" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-4" value="Выделить страницы памяти иницализировав их данными контекста ВМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-5" value="Пометить страницы как доступные только для чтения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-6" value="Переключиться режим выполнения процессора на уровень привилегий&amp;nbsp; EL2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-7" value="Скопировать данные со страниц памяти в заранее зарезервированную область памяти " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="530" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-8" value="Переключить режим выполнения процессора на уровень привилегий EL1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="750" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-9" value="В регистр X0 записать идентификатор ВМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="640" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-10" value="Прочитать из регистра X0 идентификатор ВМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="970" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=25;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-4" target="pjGBn3WhbmU1fWBuyzvh-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="560" as="sourcePoint" />
+            <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-5" target="pjGBn3WhbmU1fWBuyzvh-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="560" as="sourcePoint" />
+            <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-15" value="Освободить выделенные ранее страницы памяти" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="860" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-7" target="pjGBn3WhbmU1fWBuyzvh-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="560" as="sourcePoint" />
+            <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-9" target="pjGBn3WhbmU1fWBuyzvh-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="560" as="sourcePoint" />
+            <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-8" target="pjGBn3WhbmU1fWBuyzvh-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="560" as="sourcePoint" />
+            <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-6" target="pjGBn3WhbmU1fWBuyzvh-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="640" as="sourcePoint" />
+            <mxPoint x="200" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-15" target="pjGBn3WhbmU1fWBuyzvh-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="950" as="sourcePoint" />
+            <mxPoint x="200" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-10" target="pjGBn3WhbmU1fWBuyzvh-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="950" as="sourcePoint" />
+            <mxPoint x="200" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=-25;exitPerimeter=0;" edge="1" parent="1" source="pjGBn3WhbmU1fWBuyzvh-2" target="pjGBn3WhbmU1fWBuyzvh-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="950" as="sourcePoint" />
+            <mxPoint x="200" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pjGBn3WhbmU1fWBuyzvh-28" value="Идентификатор ВМ" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1082.5" width="50" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ygJmtFXAVT4soTjsxkEz" name="Page-2">
+    <mxGraphModel dx="1422" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nH7qjhFr7mjBJzrW3xzJ-1" value="Начало" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4yHzeZZg9dF9Mv7ObE1F-1" value="Конец" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="210" y="870" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p-xklcbJeC8V2Q3wIlLk-1" value="Виртуальная машина" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4zS5Fi8ZIIbbqjSvpsHs-1" value="Переключиться режим выполнения процессора на уровень привилегий&amp;nbsp; EL2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lYfwNkjZjUG85MJYq1Ek-1" value="В регистр Х0 сохранить идентификатор ВМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jD6swmgAY53-my52_cxy-2" value="Зарезервировать память под сохранение контекста ВМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jD6swmgAY53-my52_cxy-3" value="В массив зарегестрированных ВМ добавить переданный идентификатор" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="650" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jD6swmgAY53-my52_cxy-4" value="Считать из регистра Х0 идентификатор ВМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="540" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jD6swmgAY53-my52_cxy-5" value="Переключиться режим выполнения процессора на уровень привилегий&amp;nbsp; EL1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="760" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="STSLKTwTcDyuQTZFbBPp-1" value="Зарегистрированная &lt;br&gt;виртуальная машина" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="875" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="STSLKTwTcDyuQTZFbBPp-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=25;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lYfwNkjZjUG85MJYq1Ek-1" target="nH7qjhFr7mjBJzrW3xzJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="410" as="sourcePoint" />
+            <mxPoint x="420" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STSLKTwTcDyuQTZFbBPp-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4zS5Fi8ZIIbbqjSvpsHs-1" target="lYfwNkjZjUG85MJYq1Ek-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="410" as="sourcePoint" />
+            <mxPoint x="420" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STSLKTwTcDyuQTZFbBPp-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jD6swmgAY53-my52_cxy-2" target="4zS5Fi8ZIIbbqjSvpsHs-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="410" as="sourcePoint" />
+            <mxPoint x="420" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STSLKTwTcDyuQTZFbBPp-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jD6swmgAY53-my52_cxy-4" target="jD6swmgAY53-my52_cxy-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="sourcePoint" />
+            <mxPoint x="420" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STSLKTwTcDyuQTZFbBPp-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jD6swmgAY53-my52_cxy-3" target="jD6swmgAY53-my52_cxy-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="650" as="sourcePoint" />
+            <mxPoint x="420" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STSLKTwTcDyuQTZFbBPp-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jD6swmgAY53-my52_cxy-5" target="jD6swmgAY53-my52_cxy-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="740" as="sourcePoint" />
+            <mxPoint x="420" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STSLKTwTcDyuQTZFbBPp-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=-25;exitPerimeter=0;" edge="1" parent="1" source="4yHzeZZg9dF9Mv7ObE1F-1" target="jD6swmgAY53-my52_cxy-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="740" as="sourcePoint" />
+            <mxPoint x="420" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
