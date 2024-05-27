@@ -2,5 +2,5 @@
 
 mkdir build
 cd build
-../configure
+make toolchains
 make

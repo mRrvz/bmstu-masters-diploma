@@ -1,2 +1,0 @@
-trustapplet_build.sh
-
