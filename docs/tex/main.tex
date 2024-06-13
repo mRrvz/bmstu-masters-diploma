@@ -6,18 +6,25 @@
 	\include{00-title}
 
 	\normalsize
-	\setcounter{page}{3}
+	\setcounter{page}{1}
 
 	\pagebreak
-
+	
+	\afterpage{\null\newpage}
+	\afterpage{\null\newpage}
+	\afterpage{\null\newpage}
+	\afterpage{\null\newpage}
+	
+	\include{01-abstract}
+	
 	\renewcommand{\contentsname}{\normalsize\bfseries\centering СОДЕРЖАНИЕ}
 	\small
 	\tableofcontents
 	\normalsize
 
 	\pagebreak
-	
-	\include{01-abstract}
+
+	\include{02-definitions}	
 	\include{03-intro}
 	\include{10-analysis}
 	\include{20-design}

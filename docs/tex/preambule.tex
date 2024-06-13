@@ -35,6 +35,7 @@
 % Переопределение стандартных \section, \subsection, \subsubsection по ГОСТу;
 % Переопределение их отступов до и после для 1.5 интервала во всем документе
 \usepackage{titlesec}
+\usepackage{enumerate}
 
 \titleformat{\section}[block]
 {\bfseries\normalsize\filcenter}{\thesection}{1em}{}
@@ -54,9 +55,15 @@
 
 \usepackage{graphicx}
 \usepackage{diagbox} % Диагональное разделение первой ячейки в таблицах
+\usepackage{afterpage}
 
 % Цвета для гиперссылок и листингов
 \usepackage{color}
+
+\usepackage{tocloft}
+\setlength{\cftsecindent}{0pt}
+\setlength{\cftsubsecindent}{0pt}
+\setlength{\cftsubsubsecindent}{0pt}
 
 % Гиперссылки \toc с кликабельностью
 \usepackage{hyperref}
