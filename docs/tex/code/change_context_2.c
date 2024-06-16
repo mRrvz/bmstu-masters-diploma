@@ -1,9 +1,3 @@
-int secchg_change_context(vm_id_t vm_id, unsigned flags)
-{
-	struct secchg_vm_map current =
-		secchg_get_current_vm_map();
-	struct secchg_vm_map swap_to =
-		secchg_get_vm_partition(vm_id);
 	int ret;
 
 	if (secchg_validate_vm_map(swap_to)) {

@@ -29,6 +29,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{bash}
 	{code/optee_build.sh}
@@ -49,6 +50,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{bash}
 	{code/kvm_build.sh}
@@ -58,7 +60,7 @@
 
 Для сборки и установки разработанного программного обеспечения требуются следующие библиотеки и утилиты, представленные в таблице \ref{table:deps}.
 
-\begin{table}[]
+\begin{table}[h!]
 	\begin{center}
 		\caption{Таблица ПО, необходимого для сборки разработанного программного обеспечения}
 		\label{table:deps}
@@ -115,6 +117,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{text}
 	{code/interrupt_handler.c}
@@ -133,6 +136,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{text}
 	{code/interrupt_handler_2.c}
@@ -151,6 +155,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{text}
 	{code/interrupt_handler_3.c}
@@ -175,6 +180,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{text}
 	{code/change_context.c}
@@ -193,6 +199,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{text}
 	{code/change_context_2.c}
@@ -201,6 +208,8 @@
 \subsubsection{Функция защищенного отображения памяти}
 
 Модуль отображения памяти, который так же исполняется в контексте доверенной ОС, отвечает за функции защищенного отображения памяти между виртуальными машинами. В листингах \ref{code:memory} --- \ref{code:memory-3} представлена функция, позволяющая обходить страницы памяти ВМ и в зависимости от входных параметров выполнять действия над ними.
+
+""\newline\newline\newline\newline
 
 \begin{code}
 	\captionof{listing}{Отображение памяти, реализованное на уровне доверенной ОС}
@@ -215,6 +224,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{text}
 	{code/pgtable.c}
@@ -233,6 +243,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{text}
 	{code/pgtable_2.c}
@@ -251,6 +262,7 @@
 	linenos,
 	numbersep=5pt,
 	xleftmargin=10pt,
+	numbers=none,
 	]
 	{text}
 	{code/pgtable_3.c}

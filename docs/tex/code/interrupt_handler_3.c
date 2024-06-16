@@ -1,3 +1,14 @@
+			} else {
+		new = 0;
+
+		new |= (old & PSR_N_BIT);
+		new |= (old & PSR_Z_BIT);
+		new |= (old & PSR_C_BIT);
+		new |= (old & PSR_V_BIT);
+
+		if (kvm_has_mte(kern_hyp_va(vcpu->kvm)))
+			new |= PSR_TCO_BIT;
+
 		new |= (old & PSR_DIT_BIT);
 
 		new |= (old & PSR_PAN_BIT);

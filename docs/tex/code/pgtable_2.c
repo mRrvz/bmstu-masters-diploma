@@ -1,6 +1,3 @@
-	if (!table && (ctx.flags & SEC_VM_PGTABLE_WALK_LEAF)) {
-		ret = sec_vm_pgtable_visitor_cb(data, &ctx,
-					SEC_VM_PGTABLE_WALK_LEAF);
 		reload = true;
 	}
 
@@ -29,3 +26,6 @@
 	if (ctx.flags & sec_vm_PGTABLE_WALK_TABLE_POST)
 		ret = sec_vm_pgtable_visitor_cb(data, &ctx,
 				    SEC_VM_PGTABLE_WALK_TABLE_POST);
+out:
+	if (sec_vm_pgtable_walk_continue(data->walker, ret))
+		return 0;

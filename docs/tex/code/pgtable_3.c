@@ -1,7 +1,3 @@
-out:
-	if (sec_vm_pgtable_walk_continue(data->walker, ret))
-		return 0;
-
 	return ret;
 }
 
