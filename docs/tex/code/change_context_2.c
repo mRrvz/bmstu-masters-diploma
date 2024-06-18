@@ -1,3 +1,7 @@
+int secchg_change_context(vm_id_t vm_id, unsigned flags)
+{
+	struct secchg_vm_map current =
+		secchg_get_current_vm_map();
 	int ret;
 
 	if (secchg_validate_vm_map(swap_to)) {
